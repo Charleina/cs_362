@@ -15,10 +15,10 @@ class Testaverage(unittest.TestCase):
         self.assertEqual(self.average.average1(l1), 4.5)
         
     def test_average2(self):
-        self.assertEqual(self.average.average2(l2), 264.8)
+        self.assertEqual(self.average.average1(l2), 264.8)
         
     def test_average3(self):
-        self.assertEqual(self.average.average3(l3), 0)
+        self.assertEqual(self.average.average1(l3), 0)
         
 if __name__ == '__main__':
     unittest.main(verbosity=2)

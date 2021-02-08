@@ -4,40 +4,16 @@ class average:
     def __init__(self):
         pass
     
-    def average1(self,l1):
+    def average1(self,l):
         total = 0
-        for number in l1:
+        for number in l:
             float(number)
             total += number
         if(total <= 0):
             print "empty list"
             return
         else:
-            avg = total / float(len(l1))
+            avg = total / float(len(l))
             return avg
         
-    def average2(self,l2):
-        total = 0
-        for number in l2:
-            float(number)
-            total += number
-        if(total <= 0):
-            print "empty list"
-            return
-        else:
-            avg = total / float(len(l2))
-            return avg
     
-    def average3(self,l3):
-        total = 0
-        for number in l3:
-            float(number)
-            total += number
-        if(total <= 0):
-            print "empty list"
-            return
-        else:
-            avg = total / float(len(l3))
-            return avg
-
-
