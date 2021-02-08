@@ -1,4 +1,6 @@
-#
+#please run this by typing python test_cube.py
+#this is where the unit tests will run
+
 import unittest
 from cube import cube
 
