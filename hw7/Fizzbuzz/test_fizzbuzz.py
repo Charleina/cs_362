@@ -1,5 +1,6 @@
 import unittest
 from fizzbuzz import fizzbuzz
+#test class for the fizzbuzz.py file to execute type: python test_fizzbuzz.py
 
 class Testcase(unittest.TestCase):
     def setUp(self):

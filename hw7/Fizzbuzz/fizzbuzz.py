@@ -1,3 +1,5 @@
+#should run when called python test_fizzbuzz.py
+
 class fizzbuzz:
     def __init__(self):
         pass
